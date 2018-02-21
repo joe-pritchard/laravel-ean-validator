@@ -1,0 +1,32 @@
+{
+  "name": "joepritchard/laravel-ean-validator",
+  "description": "A validator for Laravel to check for correct EAN codes",
+  "type": "library",
+  "keywords": ["ean", "validation", "barcode", "laravel-5-package"],
+  "homepage": "https://bitbucket.org/joepritchard/laravel-ean-validator",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Joe Pritchard",
+      "email": "joe@joe-pritchard.uk",
+      "homepage": "https://joe-pritchard.uk"
+    }
+  ],
+  "support": {
+    "issues": "https://bitbucket.org/joepritchard/laravel-ean-validator/issues",
+    "source": "https://bitbucket.org/joepritchard/laravel-ean-validator"
+  },
+  "require": {
+    "php": "^7.0",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "JoePritchard\\LaravelEanValidator": "src/",
+      "JoePritchard\\LaravelEanValidator\\Tests": "tests/"
+    }
+  }
+}

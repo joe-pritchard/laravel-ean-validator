@@ -12,6 +12,10 @@ In a controller you can use the class as a validator rule like this:
 
 ```
 $this->validate($request, [
-	'ean' => ['required', new JoePritchard\LaraveEanValidator],
+	'ean' => ['required', new JoePritchard\LaravelEanValidator\Rules\EanValidatorRule],
 ])
 ```
+
+Or just call validate directly:
+
+`JoePritchard\LaravelEanValidator\LaravelEanValidator::validate($value)`

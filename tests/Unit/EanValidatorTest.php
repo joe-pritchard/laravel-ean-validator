@@ -23,6 +23,10 @@ use PHPUnit\Framework\TestCase;
  */
 class EanValidatorTest extends TestCase
 {
+    public function testValidValues()
+    {
+        // todo: tests
+    }
 
 }
 

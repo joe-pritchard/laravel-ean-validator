@@ -25,8 +25,8 @@
   },
   "autoload": {
     "psr-4": {
-      "JoePritchard\\LaravelEanValidator": "src/",
-      "JoePritchard\\LaravelEanValidator\\Tests": "tests/"
+      "JoePritchard\\LaravelEanValidator\\": "src/",
+      "JoePritchard\\LaravelEanValidator\\Tests\\": "tests/"
     }
   }
 }

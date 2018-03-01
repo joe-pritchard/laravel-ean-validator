@@ -1,5 +1,5 @@
 {
-  "name": "joepritchard/laravel-ean-validator",
+  "name": "joe-pritchard/laravel-ean-validator",
   "description": "A validator for Laravel to check for correct EAN codes",
   "type": "library",
   "keywords": ["ean", "validation", "barcode", "laravel-5-package"],

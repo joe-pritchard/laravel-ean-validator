@@ -15,7 +15,6 @@ namespace JoePritchard\LaravelEanValidator\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use JoePritchard\LaravelEanValidator\EanValidator;
-use JoePritchard\LaravelEanValidator\Exceptions\EanValidatorException;
 
 
 /**
@@ -36,11 +35,7 @@ class EanValidatorRule implements Rule
      */
     public function passes($attribute, $value): bool
     {
-        try {
-            return EanValidator::validate($value);
-        } catch (EanValidatorException $exception) {
-            return false;
-        }
+        return EanValidator::validate($value);
     }
 
     /**

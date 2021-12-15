@@ -4,7 +4,7 @@ Simple validator to check for correctly formatted EAN barcodes. Will pass for EA
 
 ### Installation ###
 
-`composer require joepritchard/laravel-ean-validator`
+`composer require joe-pritchard/laravel-ean-validator`
 
 ### Usage ###
 
